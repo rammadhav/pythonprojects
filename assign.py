@@ -2,7 +2,10 @@ import json
 
 with open('interface-data.json') as f:
     data = json.load(f)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9838e26725aca0645722ece13cf395272d5ee982
 def get_result():
     content = data['imdata']
     for i in content:
