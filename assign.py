@@ -2,12 +2,6 @@ import json
 
 with open('interface-data.json') as f:
     data = json.load(f)
-# content = data['imdata']
-# print(type(content))
-# for i in content:
-#     access = i['l1PhysIf'] ['attributes']
-#     print(access)
-#     name = access['dn'],access['speed'],access['mtu']
 def get_result():
     content = data['imdata']
     for i in content:
