@@ -1,5 +1,5 @@
 import json
-from functools import  reduce
+
 with open('interface-data.json') as f:
     data = json.load(f)
 def get_result():
